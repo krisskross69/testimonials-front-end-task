@@ -4,6 +4,7 @@ body {
     color: hsl(210, 46%, 95%);
     min-height: 100vh;
     font-size: 13px;
+    place-content:center;
 }
 
 article {
