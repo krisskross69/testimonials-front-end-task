@@ -1,0 +1,115 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: hsl(210, 46%, 95%);
+    min-height: 100vh;
+    font-size: 13px;
+}
+
+/* article {
+    display: grid;
+} */
+
+/* .grid-col-span2 {
+    grid-column: span2;
+} */
+
+/* .testimonials {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2em;
+    width: 96%;
+} */
+
+
+.testimonial-one {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 1em;
+    padding: 2em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.testimonial-two {
+    background-color: hsl(216, 18%, 35%);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.testimonial-three {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+    padding: 2em;
+    color: hsl(217, 19%, 35%);
+    grid-column: 1;
+}
+
+.testimonial-four {
+    background-color: hsl(208, 63%, 5%);
+    border-radius: 1em;
+    padding: 2em;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.testimonial-five {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1em;
+    padding: 2em;
+    color: hsl(217, 19%, 35%);
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.display-pic {
+    border-radius: 2em;
+    width: 30px;
+    height: 30px;
+    border: solid 2px;
+}
+
+.info {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.label {
+    padding-left: 1em;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.position {
+    opacity: 50%;
+    font-size: 0.85rem;
+}
+
+.review {
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-bottom: 1em;
+}
+
+.comment {
+    opacity: 70%;
+    font-size: 1rem;
+    height: 100%;
+}
+
+@media screen and (min-width: 450px) {
+    .testimonials {
+        display: grid;
+        gap: 2em;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 2em;
+        width: 96%;
+    }
+}
