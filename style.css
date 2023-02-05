@@ -6,9 +6,9 @@ body {
     font-size: 13px;
 }
 
-/* article {
-    display: grid;
-} */
+article {
+    margin-bottom: 2em;
+}
 
 /* .grid-col-span2 {
     grid-column: span2;
@@ -111,5 +111,9 @@ body {
         grid-template-columns: repeat(4, 1fr);
         margin: 2em;
         width: 96%;
+    }
+
+    article {
+        margin-bottom: 0;
     }
 }
